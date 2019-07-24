@@ -6,7 +6,7 @@ RUN apt-get install -y git
 
 RUN pip3 install --upgrade pip
 
-RUN git clone https://rnor3536:46M2928y@github.sydney.edu.au/rnor3536/weather_chatbot.git
+RUN git clone https://github.com/ronaldnoronha/weather_chatbot.git
 
 WORKDIR ./weather_chatbot
 
